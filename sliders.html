@@ -1,0 +1,123 @@
+<html>
+	<head>
+		<style type="text/css">
+			body {
+				font-family: Tahoma, Geneva, sans-serif;
+				text-align: center;
+			}
+			div.page-wrap {
+				width: 500px;
+				margin: 0 auto;
+			}
+			table {
+				border: solid thin #2A75FF;
+				width: 100%;
+			}
+			td { 
+				padding: 10px; 
+				text-align: center; 
+				font-size: small;
+			}
+			input[type="radio"]{
+			    display:none;
+			}
+			input[type=radio] + label{
+			  display: inline-block;
+			  background: url('arrow-down-icon-white.png') no-repeat 0 0;
+			  height: 32px;
+			  width: 32px;
+			}
+			input[type=radio]:checked + label{
+			  background: url('arrow-down-icon.png') no-repeat 0 0;
+			}
+
+			.slider-name td {
+				font-size: large;
+				text-align: left;
+				color: #2A75FF;
+				border-top: solid thin #2A75FF;
+			}
+			.slider-name:first-child td {
+				border-top: none;
+			}
+
+		</style>
+	</head>
+	<body>
+	<div class="page-wrap">
+		<form action="https://formspree.io/erica.smith@redbubble.com" method="POST">
+		<table>
+			<tbody>
+				<tr class="slider-name">
+					<td colspan="7">Speed to market</td>
+				</tr>
+				<tr>
+					<td>Lowest Priority</td>
+						<td> <input id="s1" type="radio" name="speed" value="1"/><label for="s1"/> </td>
+						<td> <input id="s2" type="radio" name="speed" value="2"/><label for="s2"/> </td>
+						<td> <input id="s3" type="radio" name="speed" value="3"/><label for="s3"/> </td>
+						<td> <input id="s4" type="radio" name="speed" value="4"/><label for="s4"/> </td>
+						<td> <input id="s5" type="radio" name="speed" value="5"/><label for="s5"/> </td>
+					<td>Highest Priority</td>
+				</tr>
+				<tr class="slider-name">
+					<td colspan="7">Software quality</td>
+				</tr>
+				<tr>
+					<td>Lowest Priority</td>
+						<td> <input id="q1" type="radio" name="quality" value="1"/><label for="q1"/> </td>
+						<td> <input id="q2" type="radio" name="quality" value="2"/><label for="q2"/> </td>
+						<td> <input id="q3" type="radio" name="quality" value="3"/><label for="q3"/> </td>
+						<td> <input id="q4" type="radio" name="quality" value="4"/><label for="q4"/> </td>
+						<td> <input id="q5" type="radio" name="quality" value="5"/><label for="q5"/> </td>
+					<td>Highest Priority</td>
+				</tr>
+				<tr class="slider-name">
+					<td colspan="7">User Experience</td>
+				</tr>
+				<tr>
+					<td>Lowest Priority</td>
+						<td> <input id="x1" type="radio" name="ux" value="1"/><label for="x1"/> </td>
+						<td> <input id="x2" type="radio" name="ux" value="2"/><label for="x2"/> </td>
+						<td> <input id="x3" type="radio" name="ux" value="3"/><label for="x3"/> </td>
+						<td> <input id="x4" type="radio" name="ux" value="4"/><label for="x4"/> </td>
+						<td> <input id="x5" type="radio" name="ux" value="5"/><label for="x5"/> </td>
+					<td>Highest Priority</td>
+				</tr>
+				<tr class="slider-name">
+					<td colspan="7">Working within Existing Resourcing</td>
+				</tr>
+				<tr>
+					<td>Lowest Priority</td>
+						<td> <input id="r1" type="radio" name="cost" value="1"/><label for="r1"/> </td>
+						<td> <input id="r2" type="radio" name="cost" value="2"/><label for="r2"/> </td>
+						<td> <input id="r3" type="radio" name="cost" value="3"/><label for="r3"/> </td>
+						<td> <input id="r4" type="radio" name="cost" value="4"/><label for="r4"/> </td>
+						<td> <input id="r5" type="radio" name="cost" value="5"/><label for="r5"/> </td>
+					<td>Highest Priority</td>
+				</tr>
+				<tr class="slider-name">
+					<td colspan="7">Scope/Completeness</td>
+				</tr>
+				<tr>
+					<td>Lowest Priority</td>
+						<td> <input id="c1" type="radio" name="scope" value="1"/><label for="c1"/> </td>
+						<td> <input id="c2" type="radio" name="scope" value="2"/><label for="c2"/> </td>
+						<td> <input id="c3" type="radio" name="scope" value="3"/><label for="c3"/> </td>
+						<td> <input id="c4" type="radio" name="scope" value="4"/><label for="c4"/> </td>
+						<td> <input id="c5" type="radio" name="scope" value="5"/><label for="c5"/> </td>
+					<td>Highest Priority</td>
+				</tr>
+
+				<tr class="slider-name">
+					<td colspan="7"> 
+					Your name: <input name="name"/>
+					<br/><br/>
+					<input type="submit" value="Send my answers"/> </td>
+				</tr>
+			</tbody>
+		</table>
+		</form>
+	</div>
+	</body>
+</html>
